@@ -5,12 +5,79 @@ html, body {
 	padding: 0;
 	width: 100%;
 }
+
 .Landing {
 	width: 100%;
-	color: #012461;
+	font-family: 'Roboto', sans-serif;
+	color: #002460;
 }
 
-.Landing__header {}
+.Landing__header {
+	margin-bottom: 96px;
+	background-color: #002460;
+	background-image: url("./images/background_image.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Header__section {
+	width: 940px;
+	padding: 0 42px;
+	margin: 0 auto;
+}
+
+.Header__menu {
+	width: 100%;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.Header__content {
+
+}
+
+.Content__info {
+	vertical-align: top;
+	display: inline-block;
+}
+
+.Content__text {
+	color: white;
+}
+
+.Content__button {}
+
+.Button {
+	background-color: white;
+}
+
+.Content__image {
+	display: inline-block;
+}
+
+.Menu__logotype {
+	display: inline-block;
+}
+
+.Menu__list {
+	display: inline-block;
+	float: right;
+	padding-top: 32px;
+}
+
+.Menu__link {
+	color: white;
+	font-weight: 900;
+	font-size: 24px;
+	margin-left: 24px;
+	opacity: .75;
+	transition: opacity ease .25s;
+	cursor: pointer;
+}
+
+.Menu__link:hover {
+	opacity: 1;
+}
 
 .Landing__content {
 	width: 100%;
@@ -18,25 +85,23 @@ html, body {
 
 .Content__section {
 	width: 940px;
-	margin: 0 auto;
 	padding: 0 42px;
+	margin: 0 auto;
 	margin-bottom: 96px;
 }
 
-.Section_title {
-	font-family: 'Roboto', sans-serif;
-	font-size: 34px;
+.Section__title {
+	font-size: 36px;
 	font-weight: 900;
 	margin-bottom: 24px;
 }
 
-.Section_text {
-	font-family: 'Roboto', sans-serif;
+.Section__text {
 	font-size: 16px;
 	font-weight: 400;
 }
 
-.Section_lists {}
+.Section__lists {}
 
 .List__block {
 	display: inline-block;
@@ -51,14 +116,14 @@ html, body {
 	margin-bottom: 16px;
 }
 
-.List__image .Image {
+.List__image img {
 	border-radius: 12px;
 }
 
 .List__title {
+	margin-bottom: 8px;
 	font-size: 24px;
 	font-weight: 700;
-	margin-bottom: 8px;
 	padding: 0 16px;
 }
 
@@ -68,5 +133,6 @@ html, body {
 	padding: 0 16px;
 }
 
-
-.Landing__footer {}
+.Landing__footer {
+	background-color: #002460;
+}
