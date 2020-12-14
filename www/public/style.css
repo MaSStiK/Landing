@@ -22,7 +22,7 @@ html, body {
 
 .Header__section {
 	width: 940px;
-	padding: 0 42px;
+	padding: 0 42px 160px;
 	margin: 0 auto;
 }
 
@@ -43,16 +43,31 @@ html, body {
 
 .Content__text {
 	color: white;
+	font-weight: 900;
+	font-size: 56px;
+	margin-top: 100px;
 }
 
-.Content__button {}
+.Content__button {
+	margin-top: 50px;
+}
 
 .Button {
+	border-radius: 10px;
+	padding: 20px;
 	background-color: white;
+	color: #002460;
+	font-weight: 900;
+	font-size: 32px;
+	cursor: pointer;
+	
 }
 
 .Content__image {
 	display: inline-block;
+	margin-top: 130px;
+	margin-left: 100px;
+
 }
 
 .Menu__logotype {
