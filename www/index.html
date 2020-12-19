@@ -23,6 +23,7 @@
 					<div class="Menu__list" >
 						<a class="Menu__link">Информация</a>
 						<a class="Menu__link">Список</a>
+						<a class="Menu__link">Таблица</a>
 						<a class="Menu__link">Форма</a>
 						<a class="Menu__link">Карта</a>
 					</div>
@@ -31,7 +32,8 @@
 					<div class="Content__info">
 						<div class="Content__text">Основной<br>текст на фоне</div>
 						<div class="Content__button">
-							<a class="Button">Кнопка</a></div>
+							<button class="Button">Кнопка</button>
+						</div>
 					</div>
 					<div class="Content__image">
 						<img src="./public/images/image.png"/ height="75%" width="75%">
@@ -82,11 +84,64 @@
 						<div class="List__info">Описание</div>
 					</div>
 				</div>
-
+			</div>
+			<div class="Content__section">
+				<div class="Section__title">Таблица</div>
+				<div class="Section__table">
+					<table class="Table">
+						<thead>
+							<tr class="Tr">
+								<th class="Th"><b>Заголовок 1</b></th>
+								<th class="Th" colspan="2"><b>Заголовок 2</b></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="Td">Информация 1</td>
+								<td class="Td">Информация 2</td>
+								<td class="Td">Информация 3</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="Content__section">
+				<div class="Section__title">Форма</div>
+				<div class="Section__form">
+					<form>
+						<div class="Form__item">
+							<label class="Form__label">Поле 1</label>
+							<select class="Form__select">
+								<option>Значение 1</option>
+								<option>Значение 2</option>
+								<option>Значение 3</option>
+							</select>
+						</div>
+						<div class="Form__item">
+							<label class="Form__label">Поле 2</label>
+							<input class="Form__input" type="email" />
+						</div>
+						<div class="Form__item Form__item_end">
+							<button class="Form__button">Кнопка</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="Content__section">
+				<div class="Section__title">Карта</div>
+				<div class="Section__map">
+					<div class="Map__img">
+						<img src="./public/images/background_map.png"/>
+					</div>
+					<div class="Map__number">Телефон</div>
+					<div class="Map__info">+7 (999) 123-45-67</div>
+					<div class="Map__adres">Адрес</div>	
+					<div class="Map__info">Город, Улица 1</div>			
+				</div>
 			</div>
 		</div>
 		<div class="Landing__footer">
-			<div class="Header__section">
+			<div class="Footer__section">
 				<div class="Header__menu">
 					<div class="Menu__logotype">
 						<img src="./public/images/logotype_white.png"/>
@@ -94,6 +149,7 @@
 					<div class="Menu__list" >
 						<a class="Menu__link">Информация</a>
 						<a class="Menu__link">Список</a>
+						<a class="Menu__link">Таблица</a>
 						<a class="Menu__link">Форма</a>
 						<a class="Menu__link">Карта</a>
 					</div>
